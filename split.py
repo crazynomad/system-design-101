@@ -1,14 +1,42 @@
 import os
 import re
 import shutil
+
 from markdown_it import MarkdownIt
 
-def sanitize_filename(filename):
-    """Remove or replace characters that are not allowed in filenames."""
-    filename = re.sub(r'[\\/*?:"<>|]', '_', filename)
-    filename = filename.replace(' ', '_')  # Replace spaces with underscores
-    filename = filename.replace('/', '_')  # Replace slashes with underscores
+# 定义不允许使用的字符和对应的替换字符串
+CHARACTER_MAP = {
+    '\\': '_bs_',   # backslash
+    '/': '_fs_',    # forward slash
+    ':': '_c_',     # colon
+    '*': '_a_',     # asterisk
+    '?': '_q_',     # question mark
+    '"': '_dq_',    # double quote
+    '<': '_lt_',    # less than
+    '>': '_gt_',    # greater than
+    '|': '_p_',     # pipe
+    ' ': '_s_',     # space (optional, for safety)
+    '.': '_dot_',   # dot (optional, to avoid hidden files in Unix)
+    '%': '_perc_'   # percent sign
+}
+
+# 反向映射
+REVERSE_CHARACTER_MAP = {v: k for k, v in CHARACTER_MAP.items()}
+
+def sanitize_filename(filename: str) -> str:
+    """Replace unsafe characters in the filename with safe equivalents."""
+    # Replace each unsafe character using the CHARACTER_MAP
+    for char, replacement in CHARACTER_MAP.items():
+        filename = filename.replace(char, replacement)
     return filename
+
+def unsanitize_filename(sanitized_filename: str) -> str:
+    """Reverse the sanitization process to recover the original filename."""
+    # Replace each safe equivalent back to the original character
+    for replacement, char in REVERSE_CHARACTER_MAP.items():
+        sanitized_filename = sanitized_filename.replace(replacement, char)
+    return sanitized_filename
+
 
 def update_image_paths(content):
     """Update image paths in the markdown content."""
@@ -28,9 +56,6 @@ def split_markdown(file_path):
         clean_previous_chapters(base_dir)
     else:
         os.makedirs(base_dir)
-
-    # Initialize TOC entries
-    toc_entries = []
 
     # Read the Markdown file content
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -60,11 +85,9 @@ def split_markdown(file_path):
                 if current_folder_path:
                     if readme_content and any(readme_content):  # Only write README.md if it has valid content
                         write_section(current_folder_path, 'README', readme_content, None, original_h2_title)
-                        toc_entries.append(f"- [{original_h2_title} (README)]({current_folder}/README.md)")
                         readme_content = []
                     if section_content:
                         write_section(current_folder_path, h3_title, section_content, h3_count, original_h3_title)
-                        toc_entries.append(f"  - [{original_h3_title}]({current_folder}/{h3_count}.{h3_title}.md)")
                         section_content = []
 
                 # Increment the h2 counter and create a new folder
@@ -77,14 +100,12 @@ def split_markdown(file_path):
                 current_folder = f"Chapter{h2_count}.{sanitized_h2_title}"
                 current_folder_path = os.path.join(base_dir, current_folder)
                 os.makedirs(current_folder_path, exist_ok=True)
-                toc_entries.append(f"- [{original_h2_title}]({current_folder}/)")
                 skip_next_inline = True
 
             elif level == 3:
                 # Save previous h3 section before starting new one
                 if section_content:
                     write_section(current_folder_path, h3_title, section_content, h3_count, original_h3_title)
-                    toc_entries.append(f"  - [{original_h3_title}]({current_folder}/{h3_count}.{h3_title}.md)")
                     section_content = []
                 
                 h3_count += 1  # Increment h3 counter
@@ -116,23 +137,10 @@ def split_markdown(file_path):
     if current_folder_path:
         if readme_content and any(readme_content):  # Only write README.md if it has valid content
             write_section(current_folder_path, 'README', readme_content, None, original_h2_title)
-            toc_entries.append(f"- [{original_h2_title} (README)]({current_folder}/README.md)")
         if section_content:
             write_section(current_folder_path, h3_title, section_content, h3_count, original_h3_title)
-            toc_entries.append(f"  - [{original_h3_title}]({current_folder}/{h3_count}.{h3_title}.md)")
-
-    # Generate TOC.md
-    generate_toc(toc_entries, base_dir)
 
     return base_dir
-
-def generate_toc(toc_entries, base_dir):
-    """Generate a TOC.md file based on the document structure."""
-    toc_path = os.path.join(base_dir, 'toc.md')
-    with open(toc_path, 'w', encoding='utf-8') as toc_file:
-        toc_file.write("# Table of Contents\n\n")
-        for entry in toc_entries:
-            toc_file.write(entry + '\n')
 
 def write_section(folder, title, content, count, original_title=None):
     """Write a section to a markdown file."""
