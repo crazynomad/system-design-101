@@ -62,3 +62,11 @@ scratch/
 
 # IPython Notebook templates
 template.ipynb
+
+.vitepress/dist
+.vitepress/cache
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+node_modules
+.DS_Store
