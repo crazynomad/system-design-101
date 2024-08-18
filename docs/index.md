@@ -19,7 +19,7 @@ hero:
       text: GitHub
       link: https://github.com/crazynomad/system-design-101
   image:
-      src: ./images/bytebytego.png
+      src: ./bytebytego.png
       alt: System Design 101
 
 features:
