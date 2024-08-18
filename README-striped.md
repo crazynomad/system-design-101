@@ -4,7 +4,7 @@
   
 架构风格定义了应用程序编程接口（API）的不同组件如何相互交互。因此，它们通过提供标准的设计和构建 API 的方法，确保效率、可靠性和与其他系统集成的便利性。以下是最常用的风格：
 
-![](images/api-architecture-styles.png)
+![](../images/api-architecture-styles.png)
 
 *    SOAP：
     
@@ -62,7 +62,7 @@
   
 下面的图表显示了 REST 和 GraphQL 之间的快速比较。
 
-![](images/graphQL.jpg)
+![](../images/graphQL.jpg)
 
  REST RESTful Web 服务是一种基于 REST 架构风格设计的 Web 服务。REST 代表“表述性状态转移”，是一种设计风格，用于构建分布式系统
 
@@ -104,7 +104,7 @@ RPC（远程过程调用）之所以被称为“**远程**”，是因为在微�
   
 下面的图表说明了的整体数据流程。
 
-![](images/grpc.jpg)
+![](../images/grpc.jpg)
 
   
 步骤 1：客户端发起一个 REST 调用。请求体通常是 JSON 格式。
@@ -129,7 +129,7 @@ RPC（远程过程调用）之所以被称为“**远程**”，是因为在微�
   
 下面的图表显示了轮询和 Webhook 之间的比较。
 
-![](images/webhook.jpeg)
+![](../images/webhook.jpeg)
 
   
 假设我们经营一家电子商务网站。客户通过 API 网关将订单发送到订单服务，订单服务将订单发送到支付服务进行支付交易。支付服务然后与外部支付服务提供商（PSP）进行通信，以完成交易。
@@ -177,7 +177,7 @@ Webhooks 通常被称为反向 API 或推送 API，因为服务器向客户端�
   
 下面的图表显示了 5 种常见的提高 API 性能的技巧。
 
-![](images/api-performance.jpg)
+![](../images/api-performance.jpg)
 
  分页
 
@@ -212,7 +212,7 @@ Webhooks 通常被称为反向 API 或推送 API，因为服务器向客户端�
   
 下面的图表展示了关键特征。
 
-![](images/http3.jpg)
+![](../images/http3.jpg)
 
 *     
     HTTP 1.0 在 1996 年最终确定并完全记录。对同一服务器的每个请求都需要单独的 TCP 连接。
@@ -247,7 +247,7 @@ QUIC 基于 UDP。它在传输层引入了流作为一等公民。QUIC 流共享
   
 您可以在图表中查看每种风格的用例。
 
-![](images/SOAP vs REST vs GraphQL vs RPC.jpeg)
+![](../images/SOAP vs REST vs GraphQL vs RPC.jpeg)
 
 ###   
 代码优先 vs. API 优先
@@ -255,7 +255,7 @@ QUIC 基于 UDP。它在传输层引入了流作为一等公民。QUIC 流共享
   
 下面的图表显示了先编码开发和先 API 开发之间的区别。为什么我们要考虑先 API 设计呢？
 
-![](images/api_first.jpg)
+![](../images/api_first.jpg)
 
 *     
     微服务增加了系统的复杂性，我们有单独的服务来提供系统的不同功能。虽然这种架构有助于解耦和职责分离，但我们需要处理各个服务之间的通信。
@@ -283,7 +283,7 @@ QUIC 基于 UDP。它在传输层引入了流作为一等公民。QUIC 流共享
 
 ###  HTTP 状态码
 
-![](images/http-status-code.jpg)
+![](../images/http-status-code.jpg)
 
   
 HTTP 的响应代码分为五类：
@@ -297,7 +297,7 @@ API 网关是做什么的？
   
 下面的图表显示了细节。
 
-![](images/api_gateway.jpg)
+![](../images/api_gateway.jpg)
 
   
 步骤 1 - 客户端向 API 网关发送 HTTP 请求。
@@ -329,7 +329,7 @@ API 网关是做什么的？
   
 下面的图表显示了带有购物车示例的典型 API 设计。
 
-![](images/safe-apis.jpg)
+![](../images/safe-apis.jpg)
 
   
 请注意，API 设计不仅仅是 URL 路径设计。大多数情况下，我们需要选择适当的资源名称、标识符和路径模式。同样重要的是在 API 网关内设计适当的 HTTP 标头字段或设计有效的速率限制规则。
@@ -342,7 +342,7 @@ API 网关是做什么的？
   
 下面的图表显示了在网络传输时数据是如何封装和解封装的。
 
-![](images/osi model.jpeg)
+![](../images/osi model.jpeg)
 
   
 第一步：当设备 A 通过 HTTP 协议通过网络向设备 B 发送数据时，首先在应用层添加一个 HTTP 头。
@@ -371,7 +371,7 @@ API 网关是做什么的？
   
 下面的图表显示了一个前向协议和一个反向协议之间的区别。
 
-![](images/Forward Proxy v.s. Reverse Proxy2x.jpg)
+![](../images/Forward Proxy v.s. Reverse Proxy2x.jpg)
 
   
 正向代理是一台位于用户设备和互联网之间的服务器。
@@ -403,7 +403,7 @@ API 网关是做什么的？
   
 下面的图表显示了 6 种常见的算法。
 
-![](images/lb-algorithms.jpg)
+![](../images/lb-algorithms.jpg)
 
 *    静态算法
 
@@ -447,7 +447,7 @@ URL，URI，URN - 你知道它们之间的区别吗？
   
 下面的图表显示了 URL、URI 和 URN 的比较。
 
-![](images/url-uri-urn.jpg)
+![](../images/url-uri-urn.jpg)
 
 *   URI
 
@@ -476,7 +476,7 @@ CI/CD
 ###   
 CI/CD 管道以简单的术语解释
 
-![](images/ci-cd-pipeline.jpg)
+![](../images/ci-cd-pipeline.jpg)
 
   
 第 1 节 - 具有 CI/CD 的 SDLC
@@ -520,7 +520,7 @@ CI/CD 管道以简单的术语解释
 ###   
 Netflix 技术栈（CI/CD 流水线）
 
-![](images/netflix-ci-cd.jpg)
+![](../images/netflix-ci-cd.jpg)
 
   
 规划：Netflix 工程部门使用 JIRA 进行规划，使用 Confluence 进行文档编写。
@@ -555,7 +555,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
   
 这些架构模式是在应用程序开发中最常用的，无论是在 iOS 还是 Android 平台上。开发人员已经引入它们来克服早期模式的局限性。那么，它们有什么不同呢？
 
-![](images/client arch patterns.png)
+![](../images/client arch patterns.png)
 
 *     
     MVC，最古老的模式，可以追溯到近 50 年前
@@ -572,7 +572,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
   
 模式是常见设计问题的可重用解决方案，可以使开发过程更加顺畅、高效。它们作为构建更好软件结构的蓝图。以下是一些最流行的模式：
 
-![](images/18-oo-patterns.png)
+![](../images/18-oo-patterns.png)
 
 *     
     抽象工厂：家族创建者 - 制作相关项目组。
@@ -617,7 +617,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
 ###   
 云服务中不同数据库的简便备忘单
 
-![](images/cloud-dbs2.png)
+![](../images/cloud-dbs2.png)
 
   
 为您的项目选择合适的数据库是一项复杂的任务。许多数据库选项，每个都适用于不同的用例，可能很快导致决策疲劳。
@@ -634,7 +634,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
   
 答案会根据您的用例而有所不同。数据可以在内存中或磁盘上进行索引。同样，数据格式也会有所不同，例如数字、字符串、地理坐标等。系统可能是写入密集型或读取密集型。所有这些因素都会影响您选择的数据库索引格式。
 
-![](images/8-ds-db.jpg)
+![](../images/8-ds-db.jpg)
 
   
 以下是用于索引数据的一些最流行的数据结构：
@@ -662,7 +662,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
   
 下面的图表显示了这个过程。请注意，不同数据库的架构是不同的，图表展示了一些常见的设计。
 
-![](images/sql execution order in db.jpeg)
+![](../images/sql execution order in db.jpeg)
 
   
 第一步 - 通过传输层协议（例如 TCP）将 SQL 语句发送到数据库。
@@ -693,7 +693,7 @@ MVC，MVP，MVVM，MVVM-C 和 VIPER
   
 CAP 定理是计算机科学中最著名的术语之一，但我敢打赌不同的开发人员对它有不同的理解。让我们来看看它是什么，以及为什么会令人困惑。
 
-![](images/cap theorem.jpeg)
+![](../images/cap theorem.jpeg)
 
   
 CAP 定理指出，分布式系统无法同时提供这三个保证中的两个以上。
@@ -729,11 +729,11 @@ CAP 定理实际上有用吗？**
 ###   
 存储器和存储类型
 
-![](images/Types_of_Memory_and_Storage.jpeg)
+![](../images/Types_of_Memory_and_Storage.jpeg)
 
 ###  可视化 SQL 查询
 
-![](images/sql-execution-order.jpg)
+![](../images/sql-execution-order.jpg)
 
   
 SQL 语句由数据库系统在几个步骤中执行，包括：
@@ -762,7 +762,7 @@ SQL 的执行非常复杂，涉及许多考虑因素，例如：
   
 1986 年，SQL（结构化查询语言）成为标准。在接下来的 40 年里，它成为关系数据库管理系统的主导语言。阅读最新标准（ANSI SQL 2016）可能会耗费时间。我该如何学习呢？
 
-![](images/how-to-learn-sql.jpg)
+![](../images/how-to-learn-sql.jpg)
 
   
 SQL 语言有 5 个组成部分：
@@ -790,7 +790,7 @@ SQL 语言有 5 个组成部分：
   
 这个图表展示了在典型架构中我们缓存数据的位置。
 
-![](images/where do we cache data.jpeg)
+![](../images/where do we cache data.jpeg)
 
   
 有**多个层**沿着流动。
@@ -829,7 +829,7 @@ SQL 语言有 5 个组成部分：
   
 下图显示了三个主要原因。
 
-![](images/why_redis_fast.jpeg)
+![](../images/why_redis_fast.jpeg)
 
 1.    
     Redis 是一种基于 RAM 的数据存储。RAM 访问速度至少比随机磁盘访问快 1000 倍。
@@ -847,7 +847,7 @@ SQL 语言有 5 个组成部分：
 ###   
 Redis 如何使用？
 
-![](images/top-redis-use-cases.jpg)
+![](../images/top-redis-use-cases.jpg)
 
   
 Redis 不仅仅是缓存。
@@ -911,7 +911,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 设计大规模系统通常需要仔细考虑缓存。以下是经常使用的五种缓存策略。
 
-![](images/top_caching_strategy.jpeg)
+![](../images/top_caching_strategy.jpeg)
 
   
 微服务架构
@@ -920,7 +920,7 @@ Redis 可以在图表中显示的各种场景中使用。
 ###   
 典型的微服务架构是什么样的？
 
-![](images/typical-microservice-arch.jpg)
+![](../images/typical-microservice-arch.jpg)
 
   
 下面的图表显示了典型的微服务架构。
@@ -956,7 +956,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 一图胜过千言万语：开发微服务的 9 个最佳实践。
 
-![](images/microservice-best-practices.jpeg)
+![](../images/microservice-best-practices.jpeg)
 
   
 当我们开发微服务时，我们需要遵循以下最佳实践：
@@ -984,7 +984,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 下面您将找到一个显示微服务技术栈的图表，包括开发阶段和生产阶段。
 
-![](images/microservice-tech.jpeg)
+![](../images/microservice-tech.jpeg)
 
   
 ▶️ 产品推广
@@ -1016,7 +1016,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 有许多设计决策对 Kafka 的性能有所贡献。在本文中，我们将重点关注两个。我们认为这两个决策起到了最重要的作用。
 
-![](images/why_is_kafka_fast.jpeg)
+![](../images/why_is_kafka_fast.jpeg)
 
 1.    
     第一个是卡夫卡对顺序 I/O 的依赖。
@@ -1061,7 +1061,7 @@ Redis 可以在图表中显示的各种场景中使用。
 ###   
 如何学习支付系统？
 
-![](images/learn-payments.jpg)
+![](../images/learn-payments.jpg)
 
 ###   
 为什么信用卡被称为“银行中最赚钱的产品”？VISA/Mastercard 如何赚钱？
@@ -1069,7 +1069,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 下面的图表显示了信用卡支付流程的经济学。
 
-![](images/how does visa makes money.jpg)
+![](../images/how does visa makes money.jpg)
 
   
 1. 持卡人支付 100 美元给商家购买产品。
@@ -1102,7 +1102,7 @@ Redis 可以在图表中显示的各种场景中使用。
 ###   
 当我们在商家店铺刷信用卡时，VISA 是如何运作的？
 
-![](images/visa_payment.jpeg)
+![](../images/visa_payment.jpeg)
 
   
 VISA、Mastercard 和 American Express 作为清算和结算资金的卡网络。持卡银行和发卡银行可以是不同的。如果银行要逐笔交易结算而没有中介，每家银行都必须与其他所有银行结算交易。这是相当低效的。
@@ -1160,7 +1160,7 @@ VISA、Mastercard 和 American Express 作为清算和结算资金的卡网络�
   
 UPI = 支付标记语言 + 互操作支付标准
 
-![](images/how-does-upi-work.png)
+![](../images/how-does-upi-work.png)
 
 DevOps
 ------
@@ -1171,7 +1171,7 @@ DevOps vs. SRE vs. 平台工程。有什么区别？
   
 DevOps、SRE 和平台工程的概念是在不同的时间出现的，并由各种个人和组织发展起来的。
 
-![](images/devops-sre-platform.jpg)
+![](../images/devops-sre-platform.jpg)
 
   
 DevOps 的概念是由 Patrick Debois 和 Andrew Shafer 在 2009 年的敏捷会议上提出的。他们试图通过促进协作文化和对整个软件开发生命周期的共同责任来弥合软件开发和运维之间的鸿沟。
@@ -1191,7 +1191,7 @@ k8s（Kubernetes）是什么？
   
 K8s 是一个容器编排系统。它用于容器部署和管理。它的设计受到了 Google 内部系统 Borg 的极大影响。
 
-![](images/k8s.jpeg)
+![](../images/k8s.jpeg)
 
   
 一个 k8s 集群由一组运行容器化应用程序的工作机器（称为节点）组成。每个集群至少有一个工作节点。
@@ -1243,7 +1243,7 @@ K8s 是一个容器编排系统。它用于容器部署和管理。它的设计�
 ###   
 Docker vs. Kubernetes. 我们应该使用哪一个？
 
-![](images/docker-vs-k8s.jpg)
+![](../images/docker-vs-k8s.jpg)
 
  Docker 是什么？
 
@@ -1275,7 +1275,7 @@ Kubernetes：Kubernetes 在集群级别运行。它管理多个容器化应用�
   
 下面的图表显示了 Docker 的架构以及在运行“docker build”、“docker pull”和“docker run”时的工作原理。
 
-![](images/docker.jpg)
+![](../images/docker.jpg)
 
   
 Docker 架构中有 3 个组件：
@@ -1318,7 +1318,7 @@ GIT
   
 首先，必须确定我们的代码存储在哪里。通常的假设是只有两个位置 - 一个在像 Github 这样的远程服务器上，另一个在我们的本地机器上。然而，这并不完全准确。Git 在我们的机器上维护了三个本地存储位置，这意味着我们的代码可以在四个地方找到：
 
-![](images/git-commands.png)
+![](../images/git-commands.png)
 
 *     
     工作目录：我们编辑文件的地方
@@ -1337,7 +1337,7 @@ GIT
   
 下面的图表显示了 Git 工作流程。
 
-![](images/git-workflow.jpeg)
+![](../images/git-workflow.jpeg)
 
   
 Git 是一个分布式版本控制系统。
@@ -1357,7 +1357,7 @@ Git 合并 vs. Git 变基
   
 什么是不同之处？
 
-![](images/git-merge-git-rebase.jpeg)
+![](../images/git-merge-git-rebase.jpeg)
 
   
 当我们从一个 Git 分支合并更改到另一个分支时，我们可以使用'git merge'或'git rebase'。下面的图表显示了这两个命令的工作原理。
@@ -1393,14 +1393,14 @@ Git Rebase 的黄金法则**
 ###   
 不同云服务的简便备忘单（2023 版）
 
-![](images/cloud-compare.jpg)
+![](../images/cloud-compare.jpg)
 
 ###  什么是云原生？
 
   
 以下是自 1980 年代以来建筑和流程演变的图表。
 
-![](images/cloud-native.jpeg)
+![](../images/cloud-native.jpeg)
 
   
 组织可以利用云原生技术在公共、私有和混合云上构建和运行可扩展的应用程序。
@@ -1448,12 +1448,12 @@ Git Rebase 的黄金法则**
   
 此外，生成的图表可以下载为图片。
 
-![](images/json-cracker.jpeg)
+![](../images/json-cracker.jpeg)
 
 ###   
 自动将代码转换为架构图
 
-![](images/diagrams_as_code.jpeg)
+![](../images/diagrams_as_code.jpeg)
 
  它是做什么的？
 
@@ -1474,7 +1474,7 @@ Linux
 ###   
 Linux 文件系统解释
 
-![](images/linux-file-systems.jpg)
+![](../images/linux-file-systems.jpg)
 
   
 Linux 文件系统曾经类似于一个无组织的城镇，个人可以随意在任何地方建造他们的房屋。然而，1994 年引入了文件系统层次结构标准（FHS），以整顿 Linux 文件系统。
@@ -1491,7 +1491,7 @@ Linux 命令是与操作系统交互的指令。它们帮助管理文件、目�
   
 下面的图表显示了流行的 Linux 命令：
 
-![](images/18 Most-Used Linux Commands You Should Know-01.jpeg)
+![](../images/18 Most-Used Linux Commands You Should Know-01.jpeg)
 
 *     
     ls - 列出文件和目录
@@ -1538,7 +1538,7 @@ Linux 命令是与操作系统交互的指令。它们帮助管理文件、目�
   
 超文本传输安全协议（HTTPS）是超文本传输协议（HTTP）的扩展。HTTPS 使用传输层安全性（TLS）传输加密数据。如果数据在网上被劫持，劫持者只能获得二进制代码。
 
-![](images/https.jpg)
+![](../images/https.jpg)
 
   
 数据是如何加密和解密的？
@@ -1574,7 +1574,7 @@ Linux 命令是与操作系统交互的指令。它们帮助管理文件、目�
   
 OAuth 2.0 是一个强大且安全的框架，允许不同的应用程序代表用户安全地相互交互，而无需共享敏感凭据。
 
-![](images/oAuth2.jpg)
+![](../images/oAuth2.jpg)
 
   
 OAuth 涉及的实体是用户、服务器和身份提供者（IDP）。
@@ -1600,7 +1600,7 @@ OAuth 令牌可以做什么？
 ###   
 认证机制的前 4 种形式
 
-![](images/top4-most-used-auth.jpg)
+![](../images/top4-most-used-auth.jpg)
 
 1.   SSH 密钥：
     
@@ -1629,7 +1629,7 @@ OAuth 令牌可以做什么？
   
 这些术语都与用户身份管理有关。当您登录网站时，您会声明自己是谁（身份验证）。您的身份会得到验证（认证），并且您将被授予必要的权限（授权）。过去已经提出了许多解决方案，而且这个列表还在不断增长。
 
-![](images/session.jpeg)
+![](../images/session.jpeg)
 
   
 从简单到复杂，这是我对用户身份管理的理解：
@@ -1656,7 +1656,7 @@ OAuth 令牌可以做什么？
 ###   
 如何在数据库中安全存储密码以及如何验证密码？
 
-![](images/salt.jpg)
+![](../images/salt.jpg)
 
  **不要做的事情**
 
@@ -1701,7 +1701,7 @@ OAuth 令牌可以做什么？
 ###   
 向一个 10 岁的孩子解释 JSON Web Token（JWT）
 
-![](images/jwt.jpg)
+![](../images/jwt.jpg)
 
   
 想象一下，您有一个名为 JWT 的特殊盒子。在这个盒子里，有三个部分：一个头部、一个有效载荷和一个签名。
@@ -1724,7 +1724,7 @@ Google Authenticator 通常用于在启用两步验证时登录我们的帐户�
   
 Google Authenticator 是一种基于软件的身份验证器，实现了两步验证服务。下面的图表提供了详细信息。
 
-![](images/google_authenticate.jpeg)
+![](../images/google_authenticate.jpeg)
 
   
 有两个阶段涉及：
@@ -1781,7 +1781,7 @@ Google Authenticator 是一种基于软件的身份验证器，实现了两步�
   
 这篇帖子基于许多 Netflix 工程博客和开源项目的研究。如果您发现任何不准确之处，请随时告诉我们。
 
-![](images/netflix tech stack.png)
+![](../images/netflix tech stack.png)
 
   
 **移动和网络**：Netflix 已经采用 Swift 和 Kotlin 来构建原生移动应用。对于其 Web 应用程序，它使用 React。
@@ -1813,7 +1813,7 @@ Twitter 架构 2022
   
 是的，这是真正的 Twitter 架构。这是由埃隆·马斯克发布的，并由我们重新绘制以便更易阅读。
 
-![](images/twitter-arch.jpeg)
+![](../images/twitter-arch.jpeg)
 
 ###   
 Airbnb 过去 15 年微服务架构的演变
@@ -1821,7 +1821,7 @@ Airbnb 过去 15 年微服务架构的演变
   
 Airbnb 的微服务架构经历了 3 个主要阶段。
 
-![](images/airbnb_arch.jpeg)
+![](../images/airbnb_arch.jpeg)
 
  单体（2008 年至 2017 年）
 
@@ -1864,7 +1864,7 @@ Airbnb 最初是一个简单的房东和客人市场。这是建立在 Ruby on R
   
 哪个是最好的？为什么不同的公司选择不同的选项？
 
-![](images/monorepo-microrepo.jpg)
+![](../images/monorepo-microrepo.jpg)
 
   
 Monorepo 并不是什么新鲜事；Linux 和 Windows 都是使用 Monorepo 创建的。为了提高可扩展性和构建速度，谷歌开发了内部专用工具链，以加快扩展速度，并制定了严格的编码质量标准以保持一致性。
@@ -1899,7 +1899,7 @@ Microrepo 可以自行制定标准，也可以通过整合最佳实践来采用�
   
 如果您的答案是本地服务器和单体（在下图底部），您很可能会在面试中失败，但这就是现实中的情况！
 
-![](images/stackoverflow.jpg)
+![](../images/stackoverflow.jpg)
 
 **  
 人们认为它应该是什么样子**
@@ -1933,7 +1933,7 @@ Stack Overflow 仅使用 9 台本地 Web 服务器处理所有流量，并且它
   
 下面的图表显示了迁移前后的架构比较。
 
-![](images/serverless-to-monolithic.jpeg)
+![](../images/serverless-to-monolithic.jpeg)
 
   
 亚马逊 Prime Video 监控服务是什么？
@@ -1981,7 +1981,7 @@ Prime Video 服务需要监控数千个直播流的质量。监控工具会实�
 ###   
 迪士尼热星在比赛期间如何捕捉 50 亿个表情符号？
 
-![](images/hotstar_emojis.jpeg)
+![](../images/hotstar_emojis.jpeg)
 
 1.    
     客户端通过标准的 HTTP 请求发送表情符号。您可以将 Golang 服务视为典型的 Web 服务器。选择 Golang 是因为它很好地支持并发。Golang 中的线程是轻量级的。
@@ -2011,7 +2011,7 @@ Discord 如何存储数万亿条消息
   
 下面的图表显示了 Discord 消息存储的演变：
 
-![](images/discord-store-messages.jpg)
+![](../images/discord-store-messages.jpg)
 
 MongoDB ➡️ Cassandra ➡️ ScyllaDB
 
@@ -2049,7 +2049,7 @@ YouTube、TikTok 直播或 Twitch 上的视频直播是如何运作的？
   
 下面的图表解释了幕后发生的事情，使这一切成为可能。
 
-![](images/live_streaming_updated.jpg)
+![](../images/live_streaming_updated.jpg)
 
   
 第一步：原始视频数据由麦克风和摄像头捕获。数据被发送到服务器端。
