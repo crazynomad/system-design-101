@@ -47,6 +47,9 @@ def extract_title_from_markdown(filepath):
             if match:
                 return match.group(2).strip()
     return os.path.basename(filepath)  # Fallback to filename if no title found
+# Function to remove 'ChapterX.' prefix
+def remove_chapter_prefix(name):
+    return re.sub(r'^Chapter\d+\.', '', name)
 
 def generate_structure(docs_path):
     """Generate a structure representing the docs folder and its subfolders."""
@@ -70,8 +73,8 @@ def generate_structure(docs_path):
                     sanitized_file_name = file_name
                     sanitized_path = os.path.join(folder_name, sanitized_file_name).replace("\\", "/")
                     
-                    if sanitized_file_name.lower() == "readme.md":
-                        folder_link = sanitized_path  # Update link for the folder with README.md
+                    if sanitized_file_name.lower() == "index.md":
+                        folder_link = sanitized_path  # Update link for the folder with index.md
                     else:
                         # Extract the title from the markdown file
                         full_path = os.path.join(docs_path, sanitized_path)
@@ -82,12 +85,16 @@ def generate_structure(docs_path):
                         })
 
             # Append folder structure with collapsed: true
-            structure.append({
-                "text": unsanitize_filename(folder_name),  # Reverse sanitize and remove 'ChapterX.' prefix
-                "link": folder_link,  # Folder path or README.md as link
+            folder_data = {
+                "text": remove_chapter_prefix(unsanitize_filename(folder_name)),   # Reverse sanitize and remove 'ChapterX.' prefix
                 "items": folder_items,
                 "collapsed": True  # Set collapsed: true for each folder node
-            })
+            }
+
+            if folder_link.endswith("index.md"):
+                folder_data["link"] = folder_link  # Add link only if it ends with index.md
+
+            structure.append(folder_data)
 
     return structure
 
@@ -103,7 +110,7 @@ def save_to_theme_config(structure, output_path):
 
 def main():
     docs_path = 'docs'  # Path to your docs folder
-    output_path = 'docs/themeConfig.json'  # Path to save themeConfig.json
+    output_path = 'docs/.vitepress/themeConfig.json'  # Path to save themeConfig.json
 
     # Generate structure based on the docs folder
     structure = generate_structure(docs_path)

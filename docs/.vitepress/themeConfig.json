@@ -1,8 +1,7 @@
 {
   "sidebar": [
     {
-      "text": "Chapter1.Communication protocols",
-      "link": "Chapter1.Communication_s_protocols/README.md",
+      "text": "Communication protocols",
       "items": [
         {
           "text": "REST API vs. GraphQL",
@@ -61,11 +60,11 @@
           "link": "Chapter1.Communication_s_protocols/14.URL,_s_URI,_s_URN_s_-_s_Do_s_you_s_know_s_the_s_differences_q_.md"
         }
       ],
-      "collapsed": true
+      "collapsed": true,
+      "link": "Chapter1.Communication_s_protocols/index.md"
     },
     {
-      "text": "Chapter2.CI/CD",
-      "link": "Chapter2.CI_fs_CD/",
+      "text": "CI/CD",
       "items": [
         {
           "text": "CI/CD Pipeline Explained in Simple Terms",
@@ -79,8 +78,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter3.Architecture patterns",
-      "link": "Chapter3.Architecture_s_patterns/",
+      "text": "Architecture patterns",
       "items": [
         {
           "text": "MVC, MVP, MVVM, MVVM-C, and VIPER",
@@ -94,8 +92,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter4.Database",
-      "link": "Chapter4.Database/",
+      "text": "Database",
       "items": [
         {
           "text": "A nice cheat sheet of different databases in cloud services",
@@ -129,8 +126,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter5.Cache",
-      "link": "Chapter5.Cache/",
+      "text": "Cache",
       "items": [
         {
           "text": "Data is cached everywhere",
@@ -152,8 +148,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter6.Microservice architecture",
-      "link": "Chapter6.Microservice_s_architecture/",
+      "text": "Microservice architecture",
       "items": [
         {
           "text": "What does a typical microservice architecture look like?",
@@ -175,8 +170,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter7.Payment systems",
-      "link": "Chapter7.Payment_s_systems/",
+      "text": "Payment systems",
       "items": [
         {
           "text": "How to learn payment systems?",
@@ -198,8 +192,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter8.DevOps",
-      "link": "Chapter8.DevOps/",
+      "text": "DevOps",
       "items": [
         {
           "text": "DevOps vs. SRE vs. Platform Engineering. What is the difference?",
@@ -221,8 +214,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter9.GIT",
-      "link": "Chapter9.GIT/",
+      "text": "GIT",
       "items": [
         {
           "text": "How Git Commands work",
@@ -240,8 +232,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter10.Cloud Services",
-      "link": "Chapter10.Cloud_s_Services/",
+      "text": "Cloud Services",
       "items": [
         {
           "text": "A nice cheat sheet of different cloud services (2023 edition)",
@@ -255,8 +246,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter11.Developer productivity tools",
-      "link": "Chapter11.Developer_s_productivity_s_tools/",
+      "text": "Developer productivity tools",
       "items": [
         {
           "text": "Visualize JSON files",
@@ -270,8 +260,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter12.Linux",
-      "link": "Chapter12.Linux/",
+      "text": "Linux",
       "items": [
         {
           "text": "Linux file system explained",
@@ -285,8 +274,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter13.Security",
-      "link": "Chapter13.Security/",
+      "text": "Security",
       "items": [
         {
           "text": "How does HTTPS work?",
@@ -320,8 +308,7 @@
       "collapsed": true
     },
     {
-      "text": "Chapter14.Real World Case Studies",
-      "link": "Chapter14.Real_s_World_s_Case_s_Studies/",
+      "text": "Real World Case Studies",
       "items": [
         {
           "text": "Netflix's Tech Stack",
@@ -363,10 +350,10 @@
       "collapsed": true
     },
     {
-      "text": "Chapter15.License",
-      "link": "Chapter15.License/README.md",
+      "text": "License",
       "items": [],
-      "collapsed": true
+      "collapsed": true,
+      "link": "Chapter15.License/index.md"
     }
   ]
 }

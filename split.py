@@ -81,10 +81,10 @@ def split_markdown(file_path):
         if token.type == 'heading_open':
             level = int(token.tag.strip('h'))
             if level == 2:
-                # Save previous h2 section and README.md before starting new one
+                # Save previous h2 section and index.md before starting new one
                 if current_folder_path:
-                    if readme_content and any(readme_content):  # Only write README.md if it has valid content
-                        write_section(current_folder_path, 'README', readme_content, None, original_h2_title)
+                    if readme_content and any(readme_content):  # Only write index.md if it has valid content
+                        write_section(current_folder_path, 'index', readme_content, None, original_h2_title)
                         readme_content = []
                     if section_content:
                         write_section(current_folder_path, h3_title, section_content, h3_count, original_h3_title)
@@ -135,8 +135,8 @@ def split_markdown(file_path):
 
     # Save the last section content
     if current_folder_path:
-        if readme_content and any(readme_content):  # Only write README.md if it has valid content
-            write_section(current_folder_path, 'README', readme_content, None, original_h2_title)
+        if readme_content and any(readme_content):  # Only write index.md if it has valid content
+            write_section(current_folder_path, 'index', readme_content, None, original_h2_title)
         if section_content:
             write_section(current_folder_path, h3_title, section_content, h3_count, original_h3_title)
 
@@ -144,9 +144,9 @@ def split_markdown(file_path):
 
 def write_section(folder, title, content, count, original_title=None):
     """Write a section to a markdown file."""
-    if title == 'README':
+    if title == 'index':
         file_name = f"{title}.md"
-        if original_title:  # Insert the original H2 title as H1 at the top for README.md
+        if original_title:  # Insert the original H2 title as H1 at the top for index.md
             content.insert(0, f"# {original_title}\n\n")
     else:
         file_name = f"{count}.{title}.md"

@@ -26,7 +26,7 @@ def generate_toc(theme_config_path, toc_output_path):
     print(f"TOC.md has been generated and saved to: {toc_output_path}")
 
 def main():
-    theme_config_path = 'docs/themeConfig.json'  # Path to your themeConfig.json
+    theme_config_path = 'docs/.vitepress/themeConfig.json'  # Path to your themeConfig.json
     toc_output_path = 'docs/toc.md'  # Path to save the generated TOC.md
 
     # Generate the TOC based on the themeConfig.json
