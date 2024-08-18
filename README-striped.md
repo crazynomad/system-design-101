@@ -245,7 +245,9 @@ QUIC 基于 UDP。它在传输层引入了流作为一等公民。QUIC 流共享
   
 您可以在图表中查看每种风格的用例。
 
-![](../images/SOAP vs REST vs GraphQL vs RPC.jpeg)
+
+![](../images/SOAP%20vs%20REST%20vs%20GraphQL%20vs%20RPC.jpeg)
+
 
 ###   代码优先 vs. API 优先
 
@@ -337,7 +339,7 @@ HTTP 的响应代码分为五类：
   
 下面的图表显示了在网络传输时数据是如何封装和解封装的。
 
-![](../images/osi model.jpeg)
+![](../images/osi%20model.jpeg)
 
   
 第一步：当设备 A 通过 HTTP 协议通过网络向设备 B 发送数据时，首先在应用层添加一个 HTTP 头。
@@ -365,7 +367,7 @@ HTTP 的响应代码分为五类：
   
 下面的图表显示了一个前向协议和一个反向协议之间的区别。
 
-![](../images/Forward Proxy v.s. Reverse Proxy2x.jpg)
+![](../images/Forward%20Proxy%20v.s.%20Reverse%20Proxy2x.jpg)
 
   
 正向代理是一台位于用户设备和互联网之间的服务器。
@@ -542,7 +544,7 @@ URN 代表统一资源名称。它使用 urn 方案。 URN 无法用于定位资
   
 这些架构模式是在应用程序开发中最常用的，无论是在 iOS 还是 Android 平台上。开发人员已经引入它们来克服早期模式的局限性。那么，它们有什么不同呢？
 
-![](../images/client arch patterns.png)
+![](../images/client%20arch%20patterns.png)
 
 *     
     MVC，最古老的模式，可以追溯到近 50 年前
@@ -644,7 +646,7 @@ URN 代表统一资源名称。它使用 urn 方案。 URN 无法用于定位资
   
 下面的图表显示了这个过程。请注意，不同数据库的架构是不同的，图表展示了一些常见的设计。
 
-![](../images/sql execution order in db.jpeg)
+![](../images/sql%20execution%20order%20in%20db.jpeg)
 
   
 第一步 - 通过传输层协议（例如 TCP）将 SQL 语句发送到数据库。
@@ -675,7 +677,7 @@ URN 代表统一资源名称。它使用 urn 方案。 URN 无法用于定位资
   
 CAP 定理是计算机科学中最著名的术语之一，但我敢打赌不同的开发人员对它有不同的理解。让我们来看看它是什么，以及为什么会令人困惑。
 
-![](../images/cap theorem.jpeg)
+![](../images/cap%20theorem.jpeg)
 
   
 CAP 定理指出，分布式系统无法同时提供这三个保证中的两个以上。
@@ -770,7 +772,7 @@ SQL 语言有 5 个组成部分：
   
 这个图表展示了在典型架构中我们缓存数据的位置。
 
-![](../images/where do we cache data.jpeg)
+![](../images/where%20do%20we%20cache%20data.jpeg)
 
   
 有**多个层**沿着流动。
@@ -1040,7 +1042,7 @@ Redis 可以在图表中显示的各种场景中使用。
   
 下面的图表显示了信用卡支付流程的经济学。
 
-![](../images/how does visa makes money.jpg)
+![](../images/how%20does%20visa%20makes%20money.jpg)
 
   
 1. 持卡人支付 100 美元给商家购买产品。
@@ -1449,7 +1451,7 @@ Linux 命令是与操作系统交互的指令。它们帮助管理文件、目�
   
 下面的图表显示了流行的 Linux 命令：
 
-![](../images/18 Most-Used Linux Commands You Should Know-01.jpeg)
+![](../images/18%20Most-Used%20Linux%20Commands%20You%20Should%20Know-01.jpeg)
 
 *     
     ls - 列出文件和目录
@@ -1732,7 +1734,7 @@ Google Authenticator 是一种基于软件的身份验证器，实现了两步�
   
 这篇帖子基于许多 Netflix 工程博客和开源项目的研究。如果您发现任何不准确之处，请随时告诉我们。
 
-![](../images/netflix tech stack.png)
+![](../images/netflix%20tech%20stack.png)
 
   
 **移动和网络**：Netflix 已经采用 Swift 和 Kotlin 来构建原生移动应用。对于其 Web 应用程序，它使用 React。
@@ -2032,6 +2034,6 @@ ScyllaDB 中的 p99 读取延迟为 15 毫秒，而 Cassandra 中为 40-125 毫�
 ---
 
   
-这项工作受[CC BY-NC-ND 4.0 ![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1) ![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1) ![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1) ![](https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)     许可。
+这项工作受[CC BY-NC-ND 4.0 ![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)     许可。
 
 @media (prefers-color-scheme: dark) { body { color: #fff !important; background-color: #272727 !important; } }
