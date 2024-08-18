@@ -1,21 +1,16 @@
-<p>
-  <a href="https://blog.bytebytego.com/?utm_source=site"><img src="../images/banner.jpg" /> </a>
-</p>
+[![](../images/banner.jpg)](https://blog.bytebytego.com/?utm_source=site)
 
-<p align="center">
-  【
-  <a href="https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw">
-    👨🏻‍💻 YouTube
-  </a> | 
-  <a href="https://blog.bytebytego.com/?utm_source=site">
-    📮 Newsletter
-  </a> 】
-</p>
+【 [👨🏻‍💻 YouTube](https://www.youtube.com/channel/UCZgt6AzoyjslHTC9dz0UoTw) | [📮 Newsletter](https://blog.bytebytego.com/?utm_source=site) 】
 
-<a href="https://trendshift.io/repositories/3709" target="_blank"><img src="https://trendshift.io/api/badge/repositories/3709" alt="ByteByteGoHq%2Fsystem-design-101 | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+[![ByteByteGoHq%2Fsystem-design-101 | Trendshift](https://trendshift.io/api/badge/repositories/3709)](https://trendshift.io/repositories/3709)
 
-# System Design 101
+ 系统设计 101
+=========
 
-Explain complex systems using visuals and simple terms. 
+  
+用视觉和简单术语解释复杂系统。
 
-Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that.
+  
+无论您是为系统设计面试做准备，还是只是想了解系统在表面下是如何工作的，我们希望这个存储库能帮助您实现这一目标。
+
+@media (prefers-color-scheme: dark) { body { color: #fff !important; background-color: #272727 !important; } }

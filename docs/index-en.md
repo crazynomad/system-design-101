@@ -6,14 +6,14 @@ titleTemplate: System Design 101
 
 hero:
   name: System Design 101
-  text: 使用视觉和简单的术语解释复杂的系统。
-  tagline: 无论你是在为系统设计面试做准备，还是只是想了解系统在表面下如何工作，我们希望这个仓库能够帮助你实现这一目标。
+  text: Explain complex systems using visuals and simple terms.
+  tagline: Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that.
   actions:
     - theme: brand
       text: System Design 101
       link: /README
     - theme: alt
-      text: 开始使用
+      text: Get Started
       link: /toc
     - theme: alt
       text: GitHub
@@ -24,17 +24,36 @@ hero:
 
 features:
   - icon: 📝
-    title: 简化复杂概念
-    details: 这个仓库通过视觉和简单的术语解释复杂的系统，使其对初学者和准备系统设计面试的专业人士都易于理解。
+    title: Simplified Complex Concepts
+    details: The repository explains complex systems using visuals and simple terms, making it accessible for both beginners and professionals preparing for system design interviews.
   - icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 256 256.32"><defs><linearGradient id="a" x1="-.828%" x2="57.636%" y1="7.652%" y2="78.411%"><stop offset="0%" stop-color="#41D1FF"/><stop offset="100%" stop-color="#BD34FE"/></linearGradient><linearGradient id="b" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%"><stop offset="0%" stop-color="#FFEA83"/><stop offset="8.333%" stop-color="#FFDD35"/><stop offset="100%" stop-color="#FFA800"/></linearGradient></defs><path fill="url(#a)" d="M255.153 37.938 134.897 252.976c-2.483 4.44-8.862 4.466-11.382.048L.875 37.958c-2.746-4.814 1.371-10.646 6.827-9.67l120.385 21.517a6.537 6.537 0 0 0 2.322-.004l117.867-21.483c5.438-.991 9.574 4.796 6.877 9.62Z"/><path fill="url(#b)" d="M185.432.063 96.44 17.501a3.268 3.268 0 0 0-2.634 3.014l-5.474 92.456a3.268 3.268 0 0 0 3.997 3.378l24.777-5.718c2.318-.535 4.413 1.507 3.936 3.838l-7.361 36.047c-.495 2.426 1.782 4.5 4.151 3.78l15.304-4.649c2.372-.72 4.652 1.36 4.15 3.788l-11.698 56.621c-.732 3.542 3.979 5.473 5.943 2.437l1.313-2.028 72.516-144.72c1.215-2.423-.88-5.186-3.54-4.672l-25.505 4.922c-2.396.462-4.435-1.77-3.759-4.114l16.646-57.705c.677-2.35-1.37-4.583-3.769-4.113Z"/></svg>
-    title: 全面覆盖
-    details: 涵盖了广泛的主题，包括通信协议、CI/CD、架构模式、数据库、缓存策略等，提供了对系统设计的全面理解。
+    title: Comprehensive Coverage
+    details: Covers a wide range of topics including communication protocols, CI/CD, architecture patterns, databases, caching strategies, and more, offering a holistic understanding of system design.
   - icon: <svg xmlns="http://www.w3.org/2000/svg" width="30" viewBox="0 0 256 220.8"><path fill="#41B883" d="M204.8 0H256L128 220.8 0 0h97.92L128 51.2 157.44 0h47.36Z"/><path fill="#41B883" d="m0 0 128 220.8L256 0h-51.2L128 132.48 50.56 0H0Z"/><path fill="#35495E" d="M50.56 0 128 133.12 204.8 0h-47.36L128 51.2 97.92 0H50.56Z"/></svg>
-    title: 真实案例研究
-    details: 提供了对 Netflix、Twitter 和 Airbnb 等真实系统的深入案例研究，展示了理论在实践中如何应用以解决复杂问题。
+    title: Real-World Case Studies
+    details: Provides in-depth case studies of real-world systems like Netflix, Twitter, and Airbnb, showing how theory is applied in practice to solve complex problems.
   - icon: 🚀
-    title: 视觉学习工具
-    details: 在整个仓库中使用丰富的视觉图表和插图，以帮助理解复杂的概念，增强学习体验。
+    title: Visual Learning Aids
+    details: Rich visual diagrams and illustrations are used throughout the repository to aid in the understanding of intricate concepts, enhancing the learning experience.
 ---
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
 
-:root { --vp-home-hero-name-color: transparent; --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff); --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%); --vp-home-hero-image-filter: blur(44px); } @media (min-width: 640px) { :root { --vp-home-hero-image-filter: blur(56px); } } @media (min-width: 960px) { :root { --vp-home-hero-image-filter: blur(68px); } } @media (prefers-color-scheme: dark) { body { color: #fff !important; background-color: #272727 !important; } }
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>

@@ -1,192 +1,192 @@
 {
   "sidebar": [
     {
-      "text": "Communication protocols",
+      "text": "通信协议",
       "items": [
         {
-          "text": "REST API vs. GraphQL",
-          "link": "Chapter1.Communication_s_protocols/1.REST_s_API_s_vs_dot__s_GraphQL.md"
+          "text": "REST API 与 GraphQL",
+          "link": "Chapter1.通信协议/1.REST_s_API_s_与_s_GraphQL.md"
         },
         {
-          "text": "How does gRPC work?",
-          "link": "Chapter1.Communication_s_protocols/2.How_s_does_s_gRPC_s_work_q_.md"
+          "text": "gRPC 是如何工作的？",
+          "link": "Chapter1.通信协议/2.gRPC_s_是如何工作的？.md"
         },
         {
-          "text": "What is a webhook?",
-          "link": "Chapter1.Communication_s_protocols/3.What_s_is_s_a_s_webhook_q_.md"
+          "text": "什么是 Webhook？",
+          "link": "Chapter1.通信协议/3.什么是_s_Webhook？.md"
         },
         {
-          "text": "How to improve API performance?",
-          "link": "Chapter1.Communication_s_protocols/4.How_s_to_s_improve_s_API_s_performance_q_.md"
+          "text": "4..md",
+          "link": "Chapter1.通信协议/4..md"
         },
         {
           "text": "HTTP 1.0 -> HTTP 1.1 -> HTTP 2.0 -> HTTP 3.0 (QUIC)",
-          "link": "Chapter1.Communication_s_protocols/5.HTTP_s_1_dot_0_s_-_gt__s_HTTP_s_1_dot_1_s_-_gt__s_HTTP_s_2_dot_0_s_-_gt__s_HTTP_s_3_dot_0_s_(QUIC).md"
+          "link": "Chapter1.通信协议/5.HTTP_s_1_dot_0_s_-_gt__s_HTTP_s_1_dot_1_s_-_gt__s_HTTP_s_2_dot_0_s_-_gt__s_HTTP_s_3_dot_0_s_(QUIC).md"
         },
         {
           "text": "SOAP vs REST vs GraphQL vs RPC",
-          "link": "Chapter1.Communication_s_protocols/6.SOAP_s_vs_s_REST_s_vs_s_GraphQL_s_vs_s_RPC.md"
+          "link": "Chapter1.通信协议/6.SOAP_s_vs_s_REST_s_vs_s_GraphQL_s_vs_s_RPC.md"
         },
         {
-          "text": "Code First vs. API First",
-          "link": "Chapter1.Communication_s_protocols/7.Code_s_First_s_vs_dot__s_API_s_First.md"
+          "text": "7..md",
+          "link": "Chapter1.通信协议/7..md"
         },
         {
-          "text": "HTTP status codes",
-          "link": "Chapter1.Communication_s_protocols/8.HTTP_s_status_s_codes.md"
+          "text": "HTTP 状态码",
+          "link": "Chapter1.通信协议/8.HTTP_s_状态码.md"
         },
         {
-          "text": "What does API gateway do?",
-          "link": "Chapter1.Communication_s_protocols/9.What_s_does_s_API_s_gateway_s_do_q_.md"
+          "text": "9..md",
+          "link": "Chapter1.通信协议/9..md"
         },
         {
-          "text": "How do we design effective and safe APIs?",
-          "link": "Chapter1.Communication_s_protocols/10.How_s_do_s_we_s_design_s_effective_s_and_s_safe_s_APIs_q_.md"
+          "text": "10..md",
+          "link": "Chapter1.通信协议/10..md"
         },
         {
-          "text": "TCP/IP encapsulation",
-          "link": "Chapter1.Communication_s_protocols/11.TCP_fs_IP_s_encapsulation.md"
+          "text": "TCP/IP 封装",
+          "link": "Chapter1.通信协议/11.TCP_fs_IP_s_封装.md"
         },
         {
-          "text": "Why is Nginx called a “reverse” proxy?",
-          "link": "Chapter1.Communication_s_protocols/12.Why_s_is_s_Nginx_s_called_s_a_s_“reverse”_s_proxy_q_.md"
+          "text": "12..md",
+          "link": "Chapter1.通信协议/12..md"
         },
         {
-          "text": "What are the common load-balancing algorithms?",
-          "link": "Chapter1.Communication_s_protocols/13.What_s_are_s_the_s_common_s_load-balancing_s_algorithms_q_.md"
+          "text": "13..md",
+          "link": "Chapter1.通信协议/13..md"
         },
         {
-          "text": "URL, URI, URN - Do you know the differences?",
-          "link": "Chapter1.Communication_s_protocols/14.URL,_s_URI,_s_URN_s_-_s_Do_s_you_s_know_s_the_s_differences_q_.md"
+          "text": "14..md",
+          "link": "Chapter1.通信协议/14..md"
         }
       ],
       "collapsed": true,
-      "link": "Chapter1.Communication_s_protocols/index.md"
+      "link": "Chapter1.通信协议/index.md"
     },
     {
       "text": "CI/CD",
       "items": [
         {
-          "text": "CI/CD Pipeline Explained in Simple Terms",
-          "link": "Chapter2.CI_fs_CD/1.CI_fs_CD_s_Pipeline_s_Explained_s_in_s_Simple_s_Terms.md"
+          "text": "1..md",
+          "link": "Chapter2.CI_fs_CD/1..md"
         },
         {
-          "text": "Netflix Tech Stack (CI/CD Pipeline)",
-          "link": "Chapter2.CI_fs_CD/2.Netflix_s_Tech_s_Stack_s_(CI_fs_CD_s_Pipeline).md"
+          "text": "2..md",
+          "link": "Chapter2.CI_fs_CD/2..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Architecture patterns",
+      "text": "架构模式",
       "items": [
         {
-          "text": "MVC, MVP, MVVM, MVVM-C, and VIPER",
-          "link": "Chapter3.Architecture_s_patterns/1.MVC,_s_MVP,_s_MVVM,_s_MVVM-C,_s_and_s_VIPER.md"
+          "text": "1..md",
+          "link": "Chapter3.架构模式/1..md"
         },
         {
-          "text": "18 Key Design Patterns Every Developer Should Know",
-          "link": "Chapter3.Architecture_s_patterns/2.18_s_Key_s_Design_s_Patterns_s_Every_s_Developer_s_Should_s_Know.md"
+          "text": "2..md",
+          "link": "Chapter3.架构模式/2..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Database",
+      "text": "数据库",
       "items": [
         {
-          "text": "A nice cheat sheet of different databases in cloud services",
-          "link": "Chapter4.Database/1.A_s_nice_s_cheat_s_sheet_s_of_s_different_s_databases_s_in_s_cloud_s_services.md"
+          "text": "1..md",
+          "link": "Chapter4.数据库/1..md"
         },
         {
-          "text": "8 Data Structures That Power Your Databases",
-          "link": "Chapter4.Database/2.8_s_Data_s_Structures_s_That_s_Power_s_Your_s_Databases.md"
+          "text": "2..md",
+          "link": "Chapter4.数据库/2..md"
         },
         {
-          "text": "How is an SQL statement executed in the database?",
-          "link": "Chapter4.Database/3.How_s_is_s_an_s_SQL_s_statement_s_executed_s_in_s_the_s_database_q_.md"
+          "text": "3..md",
+          "link": "Chapter4.数据库/3..md"
         },
         {
-          "text": "CAP theorem",
-          "link": "Chapter4.Database/4.CAP_s_theorem.md"
+          "text": "CAP 定理",
+          "link": "Chapter4.数据库/4.CAP_s_定理.md"
         },
         {
-          "text": "Types of Memory and Storage",
-          "link": "Chapter4.Database/5.Types_s_of_s_Memory_s_and_s_Storage.md"
+          "text": "5..md",
+          "link": "Chapter4.数据库/5..md"
         },
         {
-          "text": "Visualizing a SQL query",
-          "link": "Chapter4.Database/6.Visualizing_s_a_s_SQL_s_query.md"
+          "text": "可视化 SQL 查询",
+          "link": "Chapter4.数据库/6.可视化_s_SQL_s_查询.md"
         },
         {
-          "text": "SQL language",
-          "link": "Chapter4.Database/7.SQL_s_language.md"
+          "text": "SQL 语言",
+          "link": "Chapter4.数据库/7.SQL_s_语言.md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Cache",
+      "text": "缓存",
       "items": [
         {
-          "text": "Data is cached everywhere",
-          "link": "Chapter5.Cache/1.Data_s_is_s_cached_s_everywhere.md"
+          "text": "1..md",
+          "link": "Chapter5.缓存/1..md"
         },
         {
-          "text": "Why is Redis so fast?",
-          "link": "Chapter5.Cache/2.Why_s_is_s_Redis_s_so_s_fast_q_.md"
+          "text": "2..md",
+          "link": "Chapter5.缓存/2..md"
         },
         {
-          "text": "How can Redis be used?",
-          "link": "Chapter5.Cache/3.How_s_can_s_Redis_s_be_s_used_q_.md"
+          "text": "3..md",
+          "link": "Chapter5.缓存/3..md"
         },
         {
-          "text": "Top caching strategies",
-          "link": "Chapter5.Cache/4.Top_s_caching_s_strategies.md"
+          "text": "顶级缓存策略",
+          "link": "Chapter5.缓存/4.顶级缓存策略.md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Microservice architecture",
+      "text": "微服务架构",
       "items": [
         {
-          "text": "What does a typical microservice architecture look like?",
-          "link": "Chapter6.Microservice_s_architecture/1.What_s_does_s_a_s_typical_s_microservice_s_architecture_s_look_s_like_q_.md"
+          "text": "1..md",
+          "link": "Chapter6.微服务架构/1..md"
         },
         {
-          "text": "Microservice Best Practices",
-          "link": "Chapter6.Microservice_s_architecture/2.Microservice_s_Best_s_Practices.md"
+          "text": "2..md",
+          "link": "Chapter6.微服务架构/2..md"
         },
         {
-          "text": "What tech stack is commonly used for microservices?",
-          "link": "Chapter6.Microservice_s_architecture/3.What_s_tech_s_stack_s_is_s_commonly_s_used_s_for_s_microservices_q_.md"
+          "text": "3..md",
+          "link": "Chapter6.微服务架构/3..md"
         },
         {
-          "text": "Why is Kafka fast",
-          "link": "Chapter6.Microservice_s_architecture/4.Why_s_is_s_Kafka_s_fast.md"
+          "text": "为什么 Kafka 快",
+          "link": "Chapter6.微服务架构/4.为什么_s_Kafka_s_快.md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Payment systems",
+      "text": "支付系统",
       "items": [
         {
-          "text": "How to learn payment systems?",
-          "link": "Chapter7.Payment_s_systems/1.How_s_to_s_learn_s_payment_s_systems_q_.md"
+          "text": "1..md",
+          "link": "Chapter7.支付系统/1..md"
         },
         {
-          "text": "Why is the credit card called “the most profitable product in banks”? How does VISA/Mastercard make money?",
-          "link": "Chapter7.Payment_s_systems/2.Why_s_is_s_the_s_credit_s_card_s_called_s_“the_s_most_s_profitable_s_product_s_in_s_banks”_q__s_How_s_does_s_VISA_fs_Mastercard_s_make_s_money_q_.md"
+          "text": "2..md",
+          "link": "Chapter7.支付系统/2..md"
         },
         {
-          "text": "How does VISA work when we swipe a credit card at a merchant’s shop?",
-          "link": "Chapter7.Payment_s_systems/3.How_s_does_s_VISA_s_work_s_when_s_we_s_swipe_s_a_s_credit_s_card_s_at_s_a_s_merchant’s_s_shop_q_.md"
+          "text": "3..md",
+          "link": "Chapter7.支付系统/3..md"
         },
         {
-          "text": "Payment Systems Around The World Series (Part 1): Unified Payments Interface (UPI) in India",
-          "link": "Chapter7.Payment_s_systems/4.Payment_s_Systems_s_Around_s_The_s_World_s_Series_s_(Part_s_1)_c__s_Unified_s_Payments_s_Interface_s_(UPI)_s_in_s_India.md"
+          "text": "4..md",
+          "link": "Chapter7.支付系统/4..md"
         }
       ],
       "collapsed": true
@@ -195,20 +195,20 @@
       "text": "DevOps",
       "items": [
         {
-          "text": "DevOps vs. SRE vs. Platform Engineering. What is the difference?",
-          "link": "Chapter8.DevOps/1.DevOps_s_vs_dot__s_SRE_s_vs_dot__s_Platform_s_Engineering_dot__s_What_s_is_s_the_s_difference_q_.md"
+          "text": "1..md",
+          "link": "Chapter8.DevOps/1..md"
         },
         {
-          "text": "What is k8s (Kubernetes)?",
-          "link": "Chapter8.DevOps/2.What_s_is_s_k8s_s_(Kubernetes)_q_.md"
+          "text": "2..md",
+          "link": "Chapter8.DevOps/2..md"
         },
         {
-          "text": "Docker vs. Kubernetes. Which one should we use?",
-          "link": "Chapter8.DevOps/3.Docker_s_vs_dot__s_Kubernetes_dot__s_Which_s_one_s_should_s_we_s_use_q_.md"
+          "text": "3..md",
+          "link": "Chapter8.DevOps/3..md"
         },
         {
-          "text": "How does Docker work?",
-          "link": "Chapter8.DevOps/4.How_s_does_s_Docker_s_work_q_.md"
+          "text": "Docker 是如何工作的？",
+          "link": "Chapter8.DevOps/4.Docker_s_是如何工作的？.md"
         }
       ],
       "collapsed": true
@@ -217,44 +217,44 @@
       "text": "GIT",
       "items": [
         {
-          "text": "How Git Commands work",
-          "link": "Chapter9.GIT/1.How_s_Git_s_Commands_s_work.md"
+          "text": "Git 命令如何工作",
+          "link": "Chapter9.GIT/1.Git_s_命令如何工作.md"
         },
         {
-          "text": "How does Git Work?",
-          "link": "Chapter9.GIT/2.How_s_does_s_Git_s_Work_q_.md"
+          "text": "Git 是如何工作的？",
+          "link": "Chapter9.GIT/2.Git_s_是如何工作的？.md"
         },
         {
-          "text": "Git merge vs. Git rebase",
-          "link": "Chapter9.GIT/3.Git_s_merge_s_vs_dot__s_Git_s_rebase.md"
+          "text": "3..md",
+          "link": "Chapter9.GIT/3..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Cloud Services",
+      "text": "云服务",
       "items": [
         {
-          "text": "A nice cheat sheet of different cloud services (2023 edition)",
-          "link": "Chapter10.Cloud_s_Services/1.A_s_nice_s_cheat_s_sheet_s_of_s_different_s_cloud_s_services_s_(2023_s_edition).md"
+          "text": "1..md",
+          "link": "Chapter10.云服务/1..md"
         },
         {
-          "text": "What is cloud native?",
-          "link": "Chapter10.Cloud_s_Services/2.What_s_is_s_cloud_s_native_q_.md"
+          "text": "什么是云原生？",
+          "link": "Chapter10.云服务/2.什么是云原生？.md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Developer productivity tools",
+      "text": "开发者生产力工具",
       "items": [
         {
-          "text": "Visualize JSON files",
-          "link": "Chapter11.Developer_s_productivity_s_tools/1.Visualize_s_JSON_s_files.md"
+          "text": "可视化 JSON 文件",
+          "link": "Chapter11.开发者生产力工具/1.可视化_s_JSON_s_文件.md"
         },
         {
-          "text": "Automatically turn code into architecture diagrams",
-          "link": "Chapter11.Developer_s_productivity_s_tools/2.Automatically_s_turn_s_code_s_into_s_architecture_s_diagrams.md"
+          "text": "2..md",
+          "link": "Chapter11.开发者生产力工具/2..md"
         }
       ],
       "collapsed": true
@@ -263,97 +263,97 @@
       "text": "Linux",
       "items": [
         {
-          "text": "Linux file system explained",
-          "link": "Chapter12.Linux/1.Linux_s_file_s_system_s_explained.md"
+          "text": "1..md",
+          "link": "Chapter12.Linux/1..md"
         },
         {
-          "text": "18 Most-used Linux Commands You Should Know",
-          "link": "Chapter12.Linux/2.18_s_Most-used_s_Linux_s_Commands_s_You_s_Should_s_Know.md"
+          "text": "2..md",
+          "link": "Chapter12.Linux/2..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Security",
+      "text": "安全",
       "items": [
         {
-          "text": "How does HTTPS work?",
-          "link": "Chapter13.Security/1.How_s_does_s_HTTPS_s_work_q_.md"
+          "text": "HTTPS 是如何工作的？",
+          "link": "Chapter13.安全/1.HTTPS_s_是如何工作的？.md"
         },
         {
-          "text": "Oauth 2.0 Explained With Simple Terms.",
-          "link": "Chapter13.Security/2.Oauth_s_2_dot_0_s_Explained_s_With_s_Simple_s_Terms_dot_.md"
+          "text": "2..md",
+          "link": "Chapter13.安全/2..md"
         },
         {
-          "text": "Top 4 Forms of Authentication Mechanisms",
-          "link": "Chapter13.Security/3.Top_s_4_s_Forms_s_of_s_Authentication_s_Mechanisms.md"
+          "text": "3..md",
+          "link": "Chapter13.安全/3..md"
         },
         {
-          "text": "Session, cookie, JWT, token, SSO, and OAuth 2.0 - what are they?",
-          "link": "Chapter13.Security/4.Session,_s_cookie,_s_JWT,_s_token,_s_SSO,_s_and_s_OAuth_s_2_dot_0_s_-_s_what_s_are_s_they_q_.md"
+          "text": "4..md",
+          "link": "Chapter13.安全/4..md"
         },
         {
-          "text": "How to store passwords safely in the database and how to validate a password?",
-          "link": "Chapter13.Security/5.How_s_to_s_store_s_passwords_s_safely_s_in_s_the_s_database_s_and_s_how_s_to_s_validate_s_a_s_password_q_.md"
+          "text": "5..md",
+          "link": "Chapter13.安全/5..md"
         },
         {
-          "text": "Explaining JSON Web Token (JWT) to a 10 year old Kid",
-          "link": "Chapter13.Security/6.Explaining_s_JSON_s_Web_s_Token_s_(JWT)_s_to_s_a_s_10_s_year_s_old_s_Kid.md"
+          "text": "6..md",
+          "link": "Chapter13.安全/6..md"
         },
         {
-          "text": "How does Google Authenticator (or other types of 2-factor authenticators) work?",
-          "link": "Chapter13.Security/7.How_s_does_s_Google_s_Authenticator_s_(or_s_other_s_types_s_of_s_2-factor_s_authenticators)_s_work_q_.md"
+          "text": "7..md",
+          "link": "Chapter13.安全/7..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "Real World Case Studies",
+      "text": "真实案例研究",
       "items": [
         {
-          "text": "Netflix's Tech Stack",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/1.Netflix's_s_Tech_s_Stack.md"
+          "text": "Netflix 的技术堆栈",
+          "link": "Chapter14.真实案例研究/1.Netflix_s_的技术堆栈.md"
         },
         {
-          "text": "Twitter Architecture 2022",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/2.Twitter_s_Architecture_s_2022.md"
+          "text": "2..md",
+          "link": "Chapter14.真实案例研究/2..md"
         },
         {
-          "text": "Evolution of Airbnb’s microservice architecture over the past 15 years",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/3.Evolution_s_of_s_Airbnb’s_s_microservice_s_architecture_s_over_s_the_s_past_s_15_s_years.md"
+          "text": "3..md",
+          "link": "Chapter14.真实案例研究/3..md"
         },
         {
-          "text": "Monorepo vs. Microrepo.",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/4.Monorepo_s_vs_dot__s_Microrepo_dot_.md"
+          "text": "单一代码库 vs. 微代码库。",
+          "link": "Chapter14.真实案例研究/4.单一代码库_s_vs_dot__s_微代码库。.md"
         },
         {
-          "text": "How will you design the Stack Overflow website?",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/5.How_s_will_s_you_s_design_s_the_s_Stack_s_Overflow_s_website_q_.md"
+          "text": "5..md",
+          "link": "Chapter14.真实案例研究/5..md"
         },
         {
-          "text": "Why did Amazon Prime Video monitoring move from serverless to monolithic? How can it save 90% cost?",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/6.Why_s_did_s_Amazon_s_Prime_s_Video_s_monitoring_s_move_s_from_s_serverless_s_to_s_monolithic_q__s_How_s_can_s_it_s_save_s_90_perc__s_cost_q_.md"
+          "text": "6..md",
+          "link": "Chapter14.真实案例研究/6..md"
         },
         {
-          "text": "How does Disney Hotstar capture 5 Billion Emojis during a tournament?",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/7.How_s_does_s_Disney_s_Hotstar_s_capture_s_5_s_Billion_s_Emojis_s_during_s_a_s_tournament_q_.md"
+          "text": "7..md",
+          "link": "Chapter14.真实案例研究/7..md"
         },
         {
-          "text": "How Discord Stores Trillions Of Messages",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/8.How_s_Discord_s_Stores_s_Trillions_s_Of_s_Messages.md"
+          "text": "8..md",
+          "link": "Chapter14.真实案例研究/8..md"
         },
         {
-          "text": "How do video live streamings work on YouTube, TikTok live, or Twitch?",
-          "link": "Chapter14.Real_s_World_s_Case_s_Studies/9.How_s_do_s_video_s_live_s_streamings_s_work_s_on_s_YouTube,_s_TikTok_s_live,_s_or_s_Twitch_q_.md"
+          "text": "9..md",
+          "link": "Chapter14.真实案例研究/9..md"
         }
       ],
       "collapsed": true
     },
     {
-      "text": "License",
+      "text": "许可",
       "items": [],
       "collapsed": true,
-      "link": "Chapter15.License/index.md"
+      "link": "Chapter15.许可/index.md"
     }
   ]
 }
