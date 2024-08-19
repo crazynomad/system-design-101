@@ -47,6 +47,7 @@ def extract_title_from_markdown(filepath):
             if match:
                 return match.group(2).strip()
     return os.path.basename(filepath)  # Fallback to filename if no title found
+
 # Function to remove 'ChapterX.' prefix
 def remove_chapter_prefix(name):
     return re.sub(r'^Chapter\d+\.', '', name)
@@ -59,8 +60,8 @@ def generate_structure(docs_path):
     for folder_name in sorted(os.listdir(docs_path), key=natural_sort_key):
         folder_path = os.path.join(docs_path, folder_name)
 
-        # Ignore directories starting with '.' and the 'images' folder
-        if os.path.isdir(folder_path) and not folder_name.startswith('.') and folder_name != "images":
+        # Ignore directories starting with '.' and the 'images' and 'public' folders
+        if os.path.isdir(folder_path) and not folder_name.startswith('.') and folder_name not in ["images", "public"]:
             folder_items = []
             folder_link = folder_name + "/"  # Default link to the folder
 

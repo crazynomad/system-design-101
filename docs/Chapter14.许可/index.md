@@ -1,3 +1,0 @@
-# 许可
-
-这项工作受[CC BY-NC-ND 4.0 ![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1)%20![](https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1)](http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1)     许可。@media (prefers-color-scheme: dark) { body { color: #fff !important; background-color: #272727 !important; } }
