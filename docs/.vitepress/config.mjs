@@ -28,6 +28,10 @@ export default defineConfig({
     "sidebar": themeConfig.sidebar,    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/crazynomad/system-design-101' }
-    ]
+    ],
+    sitemap: {
+      hostname: 'https://arch.starteam.work',
+      lastmodDateOnly: true
+    }
   }
 })
