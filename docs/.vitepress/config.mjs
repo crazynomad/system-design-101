@@ -32,6 +32,29 @@ export default defineConfig({
     "sidebar": themeConfig.sidebar,    
     socialLinks: [
       { icon: 'github', link: 'https://github.com/crazynomad/system-design-101' }
-    ]    
+    ],
+    footer: {
+      message: `
+        <div style="text-align: center;">
+          <h3>许可证</h3>
+          <p xmlns:cc="http://creativecommons.org/ns#" style="display: flex; align-items: center; justify-content: center; margin: 0;">
+            本作品采用 
+            <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" 
+               target="_blank" 
+               rel="license noopener noreferrer" 
+               style="display: inline-block; margin-left: 5px;">
+              CC BY-NC-ND 4.0
+            </a>
+            <span style="display: flex; align-items: center; margin-left: 5px;">
+              <img style="height:22px; margin: 0 3px;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
+              <img style="height:22px; margin: 0 3px;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
+              <img style="height:22px; margin: 0 3px;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
+              <img style="height:22px; margin: 0 3px;" src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1">
+            </span>
+          </p>
+        </div>
+      `,
+      copyright: 'Copyright © ByteByteGoHq'
+    }
   }
 })
